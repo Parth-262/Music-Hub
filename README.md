@@ -1,81 +1,71 @@
-# Django based music streaming website
-> https://galvanic-music.herokuapp.com/
+# 🎵 Music Hub - Django Music Streaming Application
 
-![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/music-player) 
-![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/music-player)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/music-player/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](https://galvanic-music.herokuapp.com/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+A feature-rich, interactive music streaming web application built with **Django**, **Bootstrap**, and **SQLite**.
 
-### Website Preview
-#### Home Page
-<img src="website_images/Home.png" width="900">
+[![GitHub stars](https://img.shields.io/github/stars/Parth-262/Music-Hub)](https://github.com/Parth-262/Music-Hub)
+[![GitHub forks](https://img.shields.io/github/forks/Parth-262/Music-Hub)](https://github.com/Parth-262/Music-Hub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-#### Detail Page
-<img src="website_images/Detail.png" width="900">
+---
 
-----
+## 📸 Website Preview
 
-## Installation 📦
+### Home Page
+<img src="website_images/Home.png" width="900" alt="Home Page Preview">
 
->pip install -r requirements.txt
+### Detail Page
+<img src="website_images/Detail.png" width="900" alt="Detail Page Preview">
 
-#### Clone
+---
 
-- Clone this repo to your local machine.
+## 📋 Features
 
-#### Run server locally
+⚡️ **User Authentication**: Sign Up, Sign In, and Logout functionality.\
+⚡️ **Google OAuth**: Google Sign Up and Sign In integration.\
+⚡️ **Music Player**: Play songs with audio visualization and view detailed song information.\
+⚡️ **Search & Filter**: Search songs easily and filter by language (*Hindi*, *English*) or artist.\
+⚡️ **Personalized Playlists**: Create, update, and manage custom playlists.\
+⚡️ **Favourites**: Bookmark your favorite tracks for quick access.\
+⚡️ **Recently Played**: Automatically logs and displays your recently played songs.
 
+---
+
+## 📦 Installation & Local Setup
+
+### 1. Clone the repository
 ```shell
-$ python manage.py runserver
+git clone https://github.com/Parth-262/Music-Hub.git
+cd Music-Hub
 ```
-> Go to localhost:8000
+
+### 2. Install dependencies
+```shell
+pip install -r requirements.txt
+```
+
+### 3. Run database migrations
+```shell
+python manage.py migrate
+```
+
+### 4. Start the server
+```shell
+python manage.py runserver
+```
+
+> Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 ---
 
-## Features 📋
-⚡️ SignUp and SignIn option.\
-⚡️ Google SignUp and SignIn option.\
-⚡️ Play song, view detailed information of song.\
-⚡️ Search songs.\
-⚡️ Filter songs based on language and singer.\
-⚡️ Create new playlist.\
-⚡️ Add/Remove songs to/from playlist.\
-⚡️ Add/Remove songs to/from favourites.\
-⚡️ Scroll through recently played/viewed songs.\
-⚡️ Explore songs through your personalized playlist and favourites.
-
-
----
-
-## Contributing 💡
-
-
-#### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
-
-
-#### Step 2
-
-- **Build your code** 🔨🔨🔨
-
-#### Step 3
-
-- 🔃 Create a new pull request.
-
-
-
-## Team ✨
+## 👨‍💻 Developer & Author ✨
 
 | <a href="https://github.com/Parth-262" target="_blank">**Parth**</a> |
 | :---: |
 | [![Parth](https://github.com/Parth-262.png?size=100)](https://github.com/Parth-262) |
 | <a href="https://github.com/Parth-262" target="_blank">`github.com/Parth-262`</a> |
 
-## License 📄
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
